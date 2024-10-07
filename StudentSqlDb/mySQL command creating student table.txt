@@ -1,0 +1,11 @@
+create database s3;
+show databases;
+use s3;
+CREATE TABLE studentdetails (
+    rollno INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50),
+    age INT,
+	gender varchar(50)
+);
+SHOW TABLES;
+select * from studentdetails;
